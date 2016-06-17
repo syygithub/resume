@@ -59,7 +59,10 @@ function change() {
         myAudio.addEventListener("canplay", function () {
             //->当音频可以播放的时候触发这个事件
             audioBox.style.display = "block";
-            audioBox.className += " audioMove";
+            //audioBox.className += " audioMove";
+            addClass(audioBox,'audioMove');
+            console.log(audioBox.className);
+
         }, false);
     }, 1000);
 
@@ -74,6 +77,21 @@ function change() {
         myAudio.pause();
         audioBox.className = "audio";
     }, false);
+    function hasClass(curEle, className) {
+        var reg = new RegExp("(^| +)" + className + "( +|$)");
+        return reg.test(curEle.className);
+    }
+
+    //->addClass:给元素增加样式类名
+    function addClass(curEle, className) {
+        var ary = className.replace(/(^ +| +$)/g, "").split(/ +/g);
+        for (var i = 0, len = ary.length; i < len; i++) {
+            var curName = ary[i];
+            if (!hasClass(curEle, curName)) {
+                curEle.className += " " + curName;
+            }
+        }
+    }
 }();
 //canvas绘图
 /*
