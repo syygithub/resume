@@ -180,6 +180,7 @@ img {
     display: none;
 }
 #page1 .hasdream{
+    -webkit-animation: fadeIn 1s 1s both;
     animation: fadeIn 1s 1s both;
     display: block;
 }
@@ -190,6 +191,7 @@ img {
 }
 #page1 h2.bl{
     animation: bounceInLeft 1s 0s both;
+    -webkit-animation: bounceInLeft 1s 0s both;
     display: block;
 }
 .page1 h2.br{
@@ -199,6 +201,7 @@ img {
 }
 #page1 h2.br{
      animation: bounceInRight 1s 0.3s both;
+    -webkit-animation: bounceInRight 1s 0.3s both;
      display: block;
  }
 .page1 .resume-title{
@@ -219,6 +222,7 @@ img {
 }
 #page1 .resume-title{
     animation: zoomIn 2s ease 0s 1 both;
+    -webkit-animation: zoomIn 2s ease 0s 1 both;
     display: block;
 }
 .page1 p{
@@ -236,6 +240,7 @@ img {
 }
 #page1 p.name{
     animation: lightSpeedIn 2s ease 1s 1 both;
+    -webkit-animation: lightSpeedIn 2s ease 1s 1 both;
     display: block;
 }
 .page1 p.time{
@@ -248,6 +253,7 @@ img {
 }
 #page1 p.time{
     animation: flipInX 2s ease 1s 1 both;
+    -webkit-animation: flipInX 2s ease 1s 1 both;
     display: block;
 }
 .page2 h2{
@@ -261,6 +267,7 @@ img {
 #page2 h2{
     display: block;
     animation: fadeInLeft 1s ease 0s 1 both;
+    -webkit-animation: fadeInLeft 1s ease 0s 1 both;
 }
 
 .page2 .title{
@@ -275,6 +282,7 @@ img {
 #page2 .title{
     display: block;
     animation: fadeInLeft 1s ease 0s 1 both;
+    -webkit-animation: fadeInLeft 1s ease 0s 1 both;
 }
 
 .page2 .title img{
@@ -291,6 +299,7 @@ img {
 #page2 .title img{
     display: block;
     animation: zoomIn 1s ease 1s 1 both;
+    -webkit-animation: zoomIn 1s ease 1s 1 both;
 }
 .page2 .title span{
     font-size: .4rem;
@@ -312,6 +321,7 @@ img {
 #page2 .content{
     display: block;
     animation: bounceInUp 1s ease 0.5s 1 both;
+    -webkit-animation: bounceInUp 1s ease 0.5s 1 both;
 }
 .page2 p.name{
     position: absolute;
@@ -347,6 +357,7 @@ img {
 #page3 h2{
     display: block;
     animation: zoomIn 1s ease 0s 1 both;
+    -webkit-animation: zoomIn 1s ease 0s 1 both;
 }
 .page3 div.teches{
     position: absolute;
@@ -374,6 +385,7 @@ img {
 #page3 .top1{
     display: block;
     animation: fadeInLeft 1s ease 0s 1 both;
+    -webkit-animation: fadeInLeft 1s ease 0s 1 both;
 }
 .page3 .top2{
     background: #ff9301;
@@ -384,6 +396,7 @@ img {
 #page3 .top2{
     display: block;
     animation: fadeInRight 1s ease 0s 1 both;
+    -webkit-animation: fadeInRight 1s ease 0s 1 both;
 }
 .page3 .top3{
     background: #fff20b;
@@ -394,6 +407,7 @@ img {
 #page3 .top3{
     display: block;
     animation: fadeInLeft 1s ease 0s 1 both;
+    -webkit-animation: fadeInLeft 1s ease 0s 1 both;
 }
 .page3 .top4{
     background: #02ff48;
@@ -404,6 +418,7 @@ img {
 #page3 .top4{
     display: block;
     animation: fadeInRight 1s ease 0s 1 both;
+    -webkit-animation: fadeInRight 1s ease 0s 1 both;
 }
 .page3 .top5{
     background: #090ee6;
@@ -414,6 +429,7 @@ img {
 #page3 .top5{
     display: block;
     animation: fadeInLeft 1s ease 0s 1 both;
+    -webkit-animation: fadeInLeft 1s ease 0s 1 both;
 }
 .page3 .top6{
     background: #8205ff;
@@ -424,6 +440,7 @@ img {
 #page3 .top6{
     display: block;
     animation: fadeInRight 1s ease 0s 1 both;
+    -webkit-animation: fadeInRight 1s ease 0s 1 both;
 }
 .page3 .top7{
     background: #bb02e6;
@@ -434,6 +451,7 @@ img {
 #page3 .top7{
     display: block;
     animation: fadeInLeft 1s ease 0s 1 both;
+    -webkit-animation: fadeInLeft 1s ease 0s 1 both;
 }
 
 
@@ -459,6 +477,7 @@ img {
 #page4 .tital_outer h2{
     display: block;
     animation: swing 1s ease 0s 1 both;
+    -webkit-animation: swing 1s ease 0s 1 both;
 }
 
 .page4 .tital_outer svg{
@@ -471,6 +490,7 @@ img {
 #page4 .tital_outer svg{
     display: block;
     animation: flash 2.5s ease 0s infinite both;
+    -webkit-animation: flash 2.5s ease 0s infinite both;
 }
 
 .page4 .hezuo{
@@ -486,6 +506,7 @@ img {
 #page4 .hezuo{
     display: block;
     animation: zoomIn 1s ease 0s 1 both;
+    -webkit-animation: zoomIn 1s ease 0s 1 both;
 }
 .page4 .hezuo img{
     border-radius: 50%;
@@ -507,14 +528,17 @@ img {
 #page4 div.detials div.st{
     display: block;
     animation: fadeInRight 1s ease 0s 1 both;
+    -webkit-animation: fadeInRight 1s ease 0s 1 both;
 }
 #page4 div.detials div.nd{
     display: block;
     animation: fadeInRight 1s ease 0.2s 1 both;
+    -webkit-animation: fadeInRight 1s ease 0.2s 1 both;
 }
 #page4 div.detials div.rd{
     display: block;
     animation: fadeInRight 1s ease 0.4s 1 both;
+    -webkit-animation: fadeInRight 1s ease 0.4s 1 both;
 }
 .page4 div.detials div.con div{
     margin: .11rem 0;
@@ -542,6 +566,7 @@ img {
 #page5 .callme h2{
     display: block;
     animation: flipInX 1s ease 0s 1 both;
+    -webkit-animation: flipInX 1s ease 0s 1 both;
 }
 .page5 .callme p{
     margin: .20rem 0;
@@ -554,6 +579,7 @@ img {
 #page5 .callme p.st{
     display: block;
     animation: zoomIn 1s ease 0s 1 both;
+    -webkit-animation: zoomIn 1s ease 0s 1 both;
 }
 #page5 .callme p.nd{
     display: block;
@@ -562,10 +588,12 @@ img {
 #page5 .callme p.rd{
     display: block;
     animation: zoomIn 1s ease 0.4s 1 both;
+    -webkit-animation: zoomIn 1s ease 0.4s 1 both;
 }
 #page5 .callme p.ur{
     display: block;
     animation: zoomIn 1s ease 0.6s 1 both;
+    -webkit-animation: zoomIn 1s ease 0.6s 1 both;
 }
 .page5 .callme div{
     position: absolute;
@@ -580,6 +608,7 @@ img {
 #page5 .callme div{
     display: block;
     animation: rotateIn 1.6s ease 0s 1 both;
+    -webkit-animation: rotateIn 1.6s ease 0s 1 both;
 }
 .page5 .callme div img{
     width: 100%;
