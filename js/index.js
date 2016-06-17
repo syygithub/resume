@@ -37,6 +37,14 @@ function change() {
     [].forEach.call(divList, function (curDiv, index) {
         console.log(step);
         curDiv.id = index === step ? curDiv.getAttribute("trueId") : null;
+        if(step==1){
+            var l6=divList[6];
+            l6["id"]="page1";
+        }
+        if(step==5){
+            var l1=divList[0];
+            l1["id"]="page5";
+        }
     });
 }
 

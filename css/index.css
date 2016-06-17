@@ -231,11 +231,11 @@ img {
     color: #ffffff;
 }
 .page1 p.name {
-    width: 1.2rem;
+    width: 50%;
+    text-align: center;
     bottom: 25%;
     font-size: .4rem;
-    left: 50%;
-    margin-left: -0.6rem;
+    left: 25%;
     display: none;
 }
 #page1 p.name{
